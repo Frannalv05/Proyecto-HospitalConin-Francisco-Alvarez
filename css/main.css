@@ -1,0 +1,946 @@
+header {
+    display: grid;
+    background-color: #C1A081;
+    
+    top: 0;
+    
+}
+
+
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.LogoConin{
+    width: 70%;
+    margin-top: 1.5rem;
+    margin-left: 10.5rem;
+    margin: left;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1.2rem;
+}
+
+.ImagenPrincipal{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    margin-left: 1rem;
+}
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+header nav{
+    display: grid;
+    grid-template-columns: 0.32fr ;
+    align-items: center;
+    
+}
+
+header nav img {
+    margin: center;
+    
+}
+
+
+
+.ListaP{
+    font-size: 0.6rem;
+    display: none;
+    grid-template-columns: 0.01fr 0.01fr 0.01fr 0.01fr 0.01fr;
+    
+    text-decoration: none;
+    margin-left: 6.25rem;
+}
+
+
+.ListaP li {
+        color: #F6F6F6;
+        font-size: 1.5em;
+        margin: 0.9rem;
+        text-decoration: #c1a081;
+        background-color: #76323F;
+        border: #632934 1px solid;
+        padding: 0.6rem;
+        display: flex;
+        border-radius: 1.56rem;
+        }
+
+
+
+
+
+
+
+.ListaRedes li {
+
+margin: 0.31rem;
+
+
+}
+
+
+footer {
+    position: static;
+    bottom: 0;
+    background-color: #c1a081;
+    height: 3.12rem;
+    padding-bottom: 3.3rem;
+
+    
+}
+
+main{
+    margin-top: 3.12rem;
+    margin-left: 1.8rem;
+}
+
+.TituloIndex{
+    font-size: larger;
+}
+
+.SubtituloIndex{
+    font-size: small;
+    margin-right: 1rem;
+}
+
+.ListaRedes{
+    display: flex;
+    list-style: none;
+    padding: 0.12rem;
+    justify-content: center;
+    
+}
+
+main aside{
+    display: grid;
+    
+}
+
+main aside div p{
+
+ margin-top: 1rem;
+  font-size: larger;
+  color: #000000;
+  margin-right: 1.8rem;
+  padding: 0.8rem;
+}
+
+
+
+body{
+    background-color: #D8CDC7;
+    
+}
+
+hr{
+    margin-top: 6.25rem;
+    color: #565656;
+    margin-left: 3.12rem;
+    margin-right: 4,68rem;
+}
+
+
+.PrimerInfo{
+    font-size: x-large;
+    margin-top: 3.12rem;
+}
+
+
+
+.SegundaImagenInfo{
+    display: flex;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.SubtituloPresentacionIndex{
+    font-size: small;
+}
+
+.InfoNuevo{
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 3.12rem;
+    margin-right: 3.12rem;
+    
+}
+
+
+.TextoPresentacionIndex p{
+    display: inline-flex;
+    font-size: larger;
+    background-color: #C1A081;
+    color: rgb(0, 0, 0);
+    padding: 0.8rem;
+  
+}
+
+.PrimerMasInfo{
+    display: inline-flex;
+    margin-left: 9rem;
+    margin-top: 0.8rem;
+   ;
+    color: #000000;
+    text-decoration: none;
+    background-color: #76323F;
+    border: #632934 0.1rem solid;
+    padding: 0.4rem;
+    border-radius: 0.6rem;
+    justify-content: center;
+}
+
+/* Separacion Segundo Articulo Index */
+
+.SegundaInfo{
+    font-size: x-large;
+    margin-top: 3.12rem;
+}
+
+hr{
+    margin-right: 4.6rem;
+}
+
+.SubtituloConocenosIndex{
+    font-size: small;
+}
+
+.ImagenConocenos{
+   
+    width: 100%;
+}
+
+.InfoConocenos{
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 3.12rem;
+    margin-right: 3.12rem; 
+}
+
+.TextoConocenosIndex p{
+    display: inline-flex;
+    margin-top: 1rem;
+    font-size: larger;
+    background-color: #C1A081;
+    color: rgb(0, 0, 0);
+    
+    padding: 0.6rem;
+}
+
+.SegundoMasInfo{
+    display: inline-flex;
+    margin-left: 10rem;
+    margin-top: 0.6rem;
+    color: #F6F6F6;
+    text-decoration: none;
+    background-color: #76323F;
+    border: #632934 2px solid;
+    padding: 0.4rem;
+    border-radius: 0.6rem;
+}
+
+/* Separacion Tercer Articulo Donaciones */
+
+.ImagenDonaciones{
+    width: 100%;
+}
+
+.SubtituloDonacionesIndex{
+    font-size: small;
+}
+
+.TercerInfo{
+    font-size: x-large;
+    margin-top: 3.12rem;
+}
+
+.InfoDonaciones{
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 3.12rem;
+    margin-right: 3.12rem;
+}
+
+.TextoDonacionesIndex p{
+    text-decoration: none;
+    display: inline-flex;
+    margin-top: 1rem;
+    font-size: larger;
+    background-color: #C1A081;
+    color: rgb(0, 0, 0);
+   
+    padding: 0.6rem;
+}
+
+.TercerMasInfo{
+    display: inline-flex;
+    margin-left: 10rem;
+    margin-top: 0.4rem;
+    color: #F8F8F8;
+    text-decoration: none;
+    background-color: #76323F;
+    border: #632934 2px solid;
+    padding: 0.4rem;
+    border-radius: 0.6rem;
+    
+}
+
+
+/* FOOTER */
+
+
+.FacebookFooter{
+    margin-left: 3.12rem;
+}
+
+.InstagramFooter{
+    margin-right: 1.5rem;
+    margin-left: 1.5rem;
+}
+
+.TwitterFooter{
+    margin-right: 3.12rem;
+}
+
+.DerechosReservados{
+    display: flex;
+    justify-content: center;
+}
+
+/* SEPARACIÓN CONOCENOS */
+
+.FooterConocenos{
+    color: #565656;
+    background-color: antiquewhite;
+}
+
+
+.ListaP li{
+    text-decoration: none;
+}
+
+.mainConocenos{
+    display: grid;
+    margin-top: 2.5rem;
+}
+
+.Conocenos{
+    font-size: x-large;
+
+}
+
+.queEsConin{
+    margin-top: 1.25rem;
+    display: flex;
+    justify-content: center;
+    font-size: xx-large;
+    background-color: #C1A081;
+    margin-right: 1.8rem;
+}
+
+.parrafoUno{
+    margin-top: 0.6rem;
+    display: flex;
+    margin-bottom: 6.25rem;
+    text-align: center;
+    margin-right: 1.5rem;
+}
+
+.fotoAbel{
+    padding: 2rem;
+    margin-top: 0.9rem;
+    display: flex;
+    justify-content: center;
+}
+
+.preguntasFrecuentes{
+    display: grid;
+}
+
+.preguntasFrecuentes h3{
+    font-size: xx-large;
+    text-align: center;
+    background-color: #C1A081;
+}
+
+
+.preguntasFrecuentes ul{
+    list-style: none;
+    text-decoration: none;
+    display: inline-block;
+    
+}
+
+
+.preguntaUno{
+    margin-top: 3.12rem;
+    text-align: center;
+
+    font-size: 3.12rem;
+    font-family: 'Teko', sans-serif;
+}
+
+
+.preguntasFrecuentes ul p{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    text-align: center;
+    
+    background-color: #D8CDC7;
+}
+
+
+.preguntaDos{
+    margin-top: 3.12rem;
+    text-align: center;
+    font-size: 3.12rem;
+    font-family: 'Teko', sans-serif;
+}
+
+
+.preguntaTres{
+    margin-top: 3.12rem;
+   text-align: center;
+    font-size: 3.12rem;
+    font-family: 'Teko', sans-serif;
+}
+
+footer{
+    margin-top: 12.5rem;
+  
+}
+
+/* SEPARACIÓN PRESENTACIÓN */
+
+.tituloPresentacion{
+    font-size: xx-large;
+}
+
+.parrafoDos{
+    margin-top: 20px;
+}
+
+.MainPresentacion h2{
+    margin-top: 30px;
+    color: #565656;
+}
+
+
+.EpigrafePresentación{
+    font-size: small;
+    color: #000000;
+}
+
+.ImagenHospital1{
+    margin-top: 30px;
+    margin-left: 500px;
+    width: 400px;
+}
+
+
+.ImagenHospital2{
+    margin-top: 30px;
+    margin-left: 350px;
+    width: 700px;
+}
+
+.VideoConinHospital{
+    margin-top: 70px;
+    font-size: xx-large;
+    text-align: center;
+}
+
+.VideoConin{
+    margin-top: 20px;
+    margin-left: 390px;
+
+}
+
+.ImagenesHospital{
+    text-align: center;
+    margin-right: 70px;
+}
+
+/* SEPARACIÓN DONACIONES */
+
+
+
+.TituloDonaciones{
+    display: inline;
+    margin-left: 550px;
+    font-size: xx-large;
+    background-color: #C1A081;
+    border: solid 5px #a38970;
+    border-radius: 50px;
+    padding: 20px;
+
+}
+
+
+.SubtituloUnoDonaciones{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.SubtituloDosDonaciones{
+    margin-top: 10px;
+    text-align: center;
+}
+
+.MetodosPago{
+    margin-top: 40px;
+    margin-left: 60px;
+    font-size: 30px;
+}
+
+.UlMetodos{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.UlMetodos li{
+    display: flex;
+    
+    margin-top: 20px;
+    margin-left: 600px;
+    font-size: 50px;
+    text-decoration: none;
+    list-style: none;
+    list-style-type: none;
+}
+
+
+.MPlogo{
+    flex-direction: row;
+    display: flex;
+    width: 120px;
+    height: 50px;
+    margin-left: 600px;
+}
+
+.PPlogo{
+    flex-direction: row;
+    display: flex;
+    width: 120px;
+    height: 50px;
+    margin-left: 600px;
+}
+
+.TBlogo{
+    flex-direction: row;
+    display: flex;
+    width: 120px;
+    height: 70px;
+    margin-left: 600px;
+}
+
+/* SEPARACION CONTACTO */
+
+
+.Contacto{
+    display: flex;
+    justify-content: center;
+    font-size: xx-large;
+}
+
+.InfoContacto{
+    display: flex;
+    justify-content: center;
+    font-size: x-large;
+}
+
+.MasInfoContacto{
+    margin-top: 40px;
+}
+
+.FormularioContacto{
+    display: flex;
+    margin-top: 50px;
+ }
+
+.FieldsetContacto{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-right: 300px;
+    margin-left: 300px;
+    font-size: x-large;
+}
+
+.LeyendaContacto{
+    font-size: xx-large;
+    text-align: center;
+    display: flex;
+    background-color: #C1A081;
+    padding: 10px;
+    border: solid 2px #9c8670;
+}
+
+.DivNombre{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.InputNombre{
+    padding: 10px;
+    padding-right: 10px;
+}
+
+.DivEmail{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.InputEmail{
+    padding: 10px;
+    padding-right: 10px;
+}
+
+.DivPais{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.SelectPais{
+    padding: 10px;
+}
+
+.InputPais{
+    padding: 10px;
+}
+
+.DivComentario{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.InputComentario{
+    padding: 40px;
+    text-align: start;
+    
+}
+
+.DivBotones{
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.InputEnviar{
+    font-size: large;
+    padding: 10px;
+}
+
+.InputResetear{
+    font-size: large;
+    padding: 10px;
+}
+
+
+@media only screen and (min-width: 600px){
+    header {
+        display: grid;
+        background-color: #C1A081;
+        
+        top: 0;
+        
+    }
+    
+    
+    *{
+        font-family: 'Montserrat', sans-serif;
+    }
+    
+    .LogoConin{
+        width: 70%;
+        margin-top: 1.5rem;
+        margin-left: 3rem;
+        margin: left;
+        display: grid;
+        align-items: center;
+        margin-bottom: 1.2rem;
+    }
+    
+    .ImagenPrincipal{
+        width: 56.3rem;
+    
+    }
+    
+    
+    .caja{
+        overflow: auto;
+    }
+    
+    
+    *{
+        margin: 0;
+        padding: 0;
+        
+    }
+    
+    header nav{
+        display: grid;
+        grid-template-columns: 0.32fr 0.4fr;
+        align-items: center;
+        
+    }
+    
+    header nav img {
+        margin: left;
+        
+    }
+    
+    
+    
+    .ListaP{
+        font-size: 0.6rem;
+        display: grid;
+        grid-template-columns: 0.01fr 0.01fr 0.01fr 0.01fr 0.01fr;
+        
+        text-decoration: none;
+        margin-left: 6.25rem;
+    }
+    
+    
+    .ListaP li {
+            color: #F6F6F6;
+            font-size: 1.5em;
+            margin: 0.9rem;
+            text-decoration: #c1a081;
+            background-color: #76323F;
+            border: #632934 1px solid;
+            padding: 0.6rem;
+            display: flex;
+            border-radius: 1.56rem;
+            }
+    
+    
+    
+    .IrAlFooter{
+        display: block;
+        margin-top: 1.8rem;
+        text-align: center;
+    }
+    
+    
+    
+    .ListaRedes li {
+    
+    margin: 0.31rem;
+    
+    
+    }
+    
+    
+    footer {
+        position: static;
+        bottom: 0;
+        background-color: #c1a081;
+        height: 3.12rem;
+        padding-bottom: 4.3rem;
+    
+        
+    }
+    
+    main{
+        margin-top: 3.12rem;
+        margin-left: 1.8rem;
+    }
+    
+    .ListaRedes{
+        display: flex;
+        list-style: none;
+        padding: 0.12rem;
+        justify-content: center;
+        
+    }
+    
+    main aside{
+        margin-top: 4rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    main aside div p{
+    
+      margin-top: 10rem;
+      font-size: larger;
+      color: #000000;
+      margin-right: 0.8rem;
+      padding: 0.8rem;
+    }
+    
+    
+    
+    body{
+        background-color: #D8CDC7;
+        
+    }
+    
+    hr{
+        margin-top: 6.25rem;
+        color: #565656;
+        margin-left: 3.12rem;
+        margin-right: 4,68rem;
+    }
+    
+    
+    .PrimerInfo{
+        font-size: xx-large;
+        margin-top: 3.12rem;
+    }
+    
+    
+    
+    .SegundaImagenInfo{
+        display: flex;
+    }
+    
+    .InfoNuevo{
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        margin-top: 3.12rem;
+        margin-right: 3.12rem;
+    }
+    
+    .TextoPresentacionIndex p{
+        display: inline-flex;
+        margin-top: 10.6rem;
+        font-size: larger;
+        background-color: #C1A081;
+        color: rgb(0, 0, 0);
+        margin-right: 2.5rem;
+        padding: 0.8rem;
+    }
+    
+    .PrimerMasInfo{
+        display: inline-flex;
+        margin-left: 16.25rem;
+        margin-top: 0.8rem;
+        color: #000000;
+        text-decoration: none;
+        background-color: #76323F;
+        border: #632934 0.1rem solid;
+        padding: 0.4rem;
+        border-radius: 0.6rem;
+    }
+    
+    /* Separacion Segundo Articulo Index */
+    
+    .SegundaInfo{
+        font-size: xx-large;
+        margin-top: 3.12rem;
+    }
+    
+    hr{
+        margin-right: 4.6rem;
+    }
+    
+    .ImagenConocenos{
+        display: flex;
+        margin-right: 4.2rem;
+    }
+    
+    .InfoConocenos{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-top: 3.12rem;
+        margin-right: 3.12rem; 
+    }
+    
+    .TextoConocenosIndex p{
+        display: inline-flex;
+        margin-top: 7.5rem;
+        font-size: larger;
+        background-color: #C1A081;
+        color: rgb(0, 0, 0);
+        margin-right: 2.5rem;
+        padding: 0.6rem;
+    }
+    
+    .SegundoMasInfo{
+        display: inline-flex;
+        margin-left: 16.2rem;
+        margin-top: 0.6rem;
+        color: #F6F6F6;
+        text-decoration: none;
+        background-color: #76323F;
+        border: #632934 2px solid;
+        padding: 0.4rem;
+        border-radius: 0.6rem;
+    }
+    
+    /* Separacion Tercer Articulo Donaciones */
+    
+    .ImagenDonaciones{
+        margin-right: 4.3rem;
+    }
+    
+    
+    .TercerInfo{
+        font-size: xx-large;
+        margin-top: 3.12rem;
+    }
+    
+    .InfoDonaciones{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-top: 3.12rem;
+        margin-right: 3.12rem;
+    }
+    
+    .TextoDonacionesIndex p{
+        text-decoration: none;
+        display: inline-flex;
+        margin-top: 7.5rem;
+        font-size: larger;
+        background-color: #C1A081;
+        color: rgb(0, 0, 0);
+        margin-right: 2.5rem;
+        padding: 0.6rem;
+    }
+    
+    .TercerMasInfo{
+        display: inline-flex;
+        margin-left: 16.2rem;
+        margin-top: 0.4rem;
+        color: #F8F8F8;
+        text-decoration: none;
+        background-color: #76323F;
+        border: #632934 2px solid;
+        padding: 0.4rem;
+        border-radius: 0.6rem;
+        
+    }
+    
+    
+    /* FOOTER */
+    
+    
+    .FacebookFooter{
+        margin-left: 3.12rem;
+    }
+    
+    .InstagramFooter{
+        margin-right: 1.5rem;
+        margin-left: 1.5rem;
+    }
+    
+    .TwitterFooter{
+        margin-right: 3.12rem;
+    }
+    
+    .DerechosReservados{
+        display: flex;
+        justify-content: center;
+    }
+}
