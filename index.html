@@ -6,65 +6,63 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> CRN - Fundación Conin</title>
 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 </head>
 
 <body>
-    <header class="caja">
+    <header class="container-fluid mb-md">
 
 
-        <nav>
+        <nav class="container-fluid ">
+            
             <a href="index.html">
-                <img class="LogoConin" src="img/LOGOTIPO.png" alt="Logotipo CONIN">
+                <img class="mt-3 mb-3 border-0 " src="img/LOGOTIPO.png" alt="Logotipo CONIN">
             </a>
             
 
-        
-            <ul  class="ListaP">
-                <a style="text-decoration: none;" href="index.html">
-                    <li> HOME </li>
+            
+            <ul class="mx-3 mt-3 row ColorMenu ">
+                <a class="p-1 me-5 col-1 MenuHeader rounded-pill text-center" style="text-decoration: none;" href="index.html">
+                    <img class="w-100" src="img/home.png" alt="">
                 </a>
 
-                <a style="text-decoration: none;" href="pages/presentación.html">
-                    <li> Informacion </li>
+                <a class="p-1 me-5 col-1 InformacionHeader rounded-pill text-center" style="text-decoration: none;" href="pages/presentación.html">
+                    <img class="w-100" src="img/info.png" alt="">
                 </a>
 
-                <a style="text-decoration: none;" href="pages/conocenos.html">
-                    <li> Conocenos </li>
+                <a class="p-1 me-5 col-1 ConocenosHeader rounded-pill text-center" style="text-decoration: none;" href="pages/conocenos.html">
+                    <img class="w-100" src="img/conocenos.png" alt="">
                 </a>
 
-                <a style="text-decoration: none;" href="pages/donaciones.html">
-                    <li> Donaciones </li>
+                <a class="p-1 me-5 col-1 DonacionesHeader rounded-pill text-center" style="text-decoration: none;" href="pages/donaciones.html">
+                    <img class="w-100" src="img/donaciones.png" alt="">
                 </a>
 
-                <a style="text-decoration: none;" href="pages/contacto.html">
-                    <li> Contacto </li>
+                <a class="p-1 me-1 col-1 ContactoHeader rounded-pill text-center" style="text-decoration: none;" href="pages/contacto.html">
+                    <img class="w-100" src="img/contacto.png" alt="">
                 </a>
 
-               
+               </ul>
 
-
-            </ul>
-
-
+            </div>
             
         </nav>
     </header>
 
-    <main>
+    <main class="container-fluid">
 
 
-        <h1 class="TituloIndex"> Nuevo Hospital "Centro de Recuperación Nutricional en Mendoza"</h1>
-        <h2 class="SubtituloIndex"> Luego de un largo trabajo en pandemia, el nuevo centro está a punto de ser abierto </h2>
+        <h1 class="fs-2"> Nuevo Hospital "Centro de Recuperación Nutricional en Mendoza"</h1>
+        <h2 class="fs-4 SubtituloHome"> Luego de un largo trabajo en pandemia, el nuevo centro está a punto de ser abierto </h2>
 
-        <aside>
+        <aside class="row ">
         
-        <div>
-            <p> Este proximo centro se encuentra en Mendoza, Argentina Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum sunt reiciendis quae dignissimos omnis aspernatur deleniti pariatur sint distinctio iure amet aperiam explicabo sapiente consequatur culpa natus hic, accusantium deserunt.</p>
-        </div>
+            <p class="fs-5 col-5 ParrafoIndexP"> Este proximo centro se encuentra en Mendoza, Argentina Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum sunt reiciendis quae dignissimos omnis aspernatur deleniti pariatur sint distinctio iure amet aperiam explicabo sapiente consequatur culpa natus hic, accusantium deserunt.</p>
+        
     
-        <img class="ImagenPrincipal" src="img/hospital.jpg" alt="imagen principal del hospital en construcción">
+        <img style="width: 10%;" class="col me-5" src="img/hospital.jpg" alt="imagen principal del hospital en construcción">
     
         </aside>
 
@@ -72,14 +70,14 @@
 
     
         
-        <h2 class="PrimerInfo"> Información Nuevo Centro </h2>
+        <h2 class="fs-2 mt-5 "> Información Nuevo Centro </h2>
 
-        <h3 class="SubtituloPresentacionIndex"> Aqui podras ver todo lo que quieras saber sobre el nuevo Centro de Recuperación Nutricional</h3>
+        <h3 class="fs-4 SubtituloInfo"> Aqui podras ver todo lo que quieras saber sobre el nuevo Centro de Recuperación Nutricional</h3>
         
-        <article class="InfoNuevo">
+        <article class="row">
 
-        <div class="TextoPresentacionIndex">
-            <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum, tempore dicta! Iusto corporis officiis, nemo harum deserunt, et, commodi labore architecto sunt nihil totam recusandae temporibus minus non magnam vitae.
+        <div class="col">
+            <p class="fs-5 col ParrafoIndexS"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum, tempore dicta! Iusto corporis officiis, nemo harum deserunt, et, commodi labore architecto sunt nihil totam recusandae temporibus minus non magnam vitae.
                 
             </p>
     
@@ -90,7 +88,7 @@
             </div>
         </div>
 
-        <img class="SegundaImagenInfo" src="img/centro-de-recuperacion-nutricional.jpg" alt="">
+        <img style="width: 10%;" class="col me-5" src="img/centro-de-recuperacion-nutricional.jpg" alt="">
    
 
         </article>
@@ -99,16 +97,16 @@
         <hr>
 
     
-        <h2 class="SegundaInfo"> Conocenos </h2>
-        <h3 class="SubtituloConocenosIndex"> Conoce un poco mas lo que es la Fundación Conin</h3>
+        <h2 class="fs-2 mt-5"> Conocenos </h2>
+        <h3 class="fs-4 SubtituloConocenos"> Conocé un poco mas lo que es la Fundación Conin </h3>
     
-        <article class="InfoConocenos">
+        <article class="row">
 
-        <div class="TextoConocenosIndex">
+        <div class="col">
 
             
 
-            <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias at quae tempore eius necessitatibus, dolor voluptatem omnis consectetur natus, similique velit architecto, quibusdam officiis culpa dignissimos! Aut at architecto cupiditate. 
+            <p class="fs-5 col ParrafoIndexT"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias at quae tempore eius necessitatibus, dolor voluptatem omnis consectetur natus, similique velit architecto, quibusdam officiis culpa dignissimos! Aut at architecto cupiditate. 
             </p>
 
 
@@ -120,21 +118,21 @@
 
         </div>
      
-        <img class="ImagenConocenos" src="img/MaruyAbel.jpg" alt="">
+        <img style="width: 10%;" class="col me-5" src="img/MaruyAbel.jpg" alt="">
 
 
         </article>
 
         <hr>
 
-        <h2 class="TercerInfo"> Donaciones </h2>
-        <h3 class="SubtituloDonacionesIndex"> Conseguí aqui toda la info que necesitas para ser donante de Conin</h3>
+        <h2 class="fs-2 mt-5"> Donaciones </h2>
+        <h3 class="fs-4 SubtituloDonaciones"> Conseguí aqui toda la info que necesitas para ser donante de Conin</h3>
 
-        <article class="InfoDonaciones">
+        <article class="row">
 
-        <div class="TextoDonacionesIndex">
+        <div class="col">
 
-            <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum quia asperiores corrupti aperiam provident eveniet atque praesentium, cum assumenda! Ipsum maxime ab laborum praesentium. Veritatis possimus optio porro modi perferendis. 
+            <p class="fs-5 col ParrafoIndexC"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum quia asperiores corrupti aperiam provident eveniet atque praesentium, cum assumenda! Ipsum maxime ab laborum praesentium. Veritatis possimus optio porro modi perferendis. 
             </p>
 
         <div class="TercerMasInfo">
@@ -145,7 +143,7 @@
 
         </div>
 
-        <img class="ImagenDonaciones" src="img/DonacionesIndex.jpg" alt="">
+        <img style="width: 10%;" class="col me-5" src="img/DonacionesIndex.jpg" alt="">
 
         </article>
 
