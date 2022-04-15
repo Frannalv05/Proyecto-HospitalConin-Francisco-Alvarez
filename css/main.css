@@ -564,6 +564,7 @@ footer{
 .FormularioContacto{
     display: flex;
     margin-top: 50px;
+    margin-left: 6rem;
  }
 
 .FieldsetContacto{
@@ -577,11 +578,11 @@ footer{
 
 .LeyendaContacto{
     font-size: xx-large;
-    text-align: center;
-    display: flex;
+    
+    display: block;
     background-color: #C1A081;
     padding: 10px;
-    border: solid 2px #9c8670;
+    border: solid 2px #040200;
 }
 
 .DivNombre{
@@ -619,7 +620,7 @@ footer{
 
 .DivComentario{
     margin-top: 20px;
-    text-align: center;
+    
 }
 
 .InputComentario{
@@ -643,6 +644,13 @@ footer{
     font-size: large;
     padding: 10px;
 }
+
+ 
+
+/* MEDIA VERSIÓN ESCRITORIO */
+
+
+
 
 
 @media only screen and (min-width: 600px){
@@ -697,6 +705,39 @@ footer{
         margin: left;
     }
     
+    header nav ul li{
+        margin-left: 5 !important;
+    }
+
+    .MenuHeader{
+        color: #C1A081;
+        text-decoration: none;
+        background-color: #76323F;
+    }
+
+    .InformacionHeader{
+        color: #C1A081;
+        text-decoration: none;
+        background-color: #76323F;
+    }
+
+    .ConocenosHeader{
+        color: #C1A081;
+        text-decoration: none;
+        background-color: #76323F;
+    }
+
+    .DonacionesHeader{
+        color: #C1A081;
+        text-decoration: none;
+        background-color: #76323F;
+    }
+
+    .ContactoHeader{
+        color: #C1A081;
+        text-decoration: none;
+        background-color: #76323F;
+    }
     
     
     .ListaP{
@@ -768,11 +809,7 @@ footer{
         
     }
     
-    main aside{
-        margin-top: 4rem;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-    }
+    
     
     main aside div p{
     
@@ -803,8 +840,42 @@ footer{
         margin-top: 3.12rem;
     }
     
+    .SubtituloHome{
+        
+        margin-bottom: 4rem;
+    }
     
-    
+    .SubtituloInfo{
+        margin-bottom: 4rem;
+    }
+
+    .SubtituloConocenos{
+        margin-bottom: 4rem;
+    }
+
+    .SubtituloDonaciones{
+        margin-bottom: 4rem;
+    }
+
+
+    .ParrafoIndexP{
+        
+        margin-top: 8rem;
+    }
+
+    .ParrafoIndexS{
+        
+        margin-top: 9rem;
+    }
+
+    .ParrafoIndexT{
+        margin-top: 9rem;
+    }
+
+    .ParrafoIndexC{
+        margin-top: 9rem;
+    }
+
     .SegundaImagenInfo{
         display: flex;
     }
@@ -942,6 +1013,8 @@ footer{
     }
     
     
+
+
     /* FOOTER */
     
     
